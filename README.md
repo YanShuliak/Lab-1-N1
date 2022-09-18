@@ -3,9 +3,9 @@
 int main() {
     float r, h, sb, sp, v, Pi;
     printf("r =");
-    scanf("%f", &r);
+    scanf_s("%f", &r);
         printf("h =");
-    scanf("%f", &h);
+    scanf_s("%f", &h);
     Pi=3.141;
     sb=2*Pi*h;
     printf("sb = %.2f \n",sb);
